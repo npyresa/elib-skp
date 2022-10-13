@@ -1,0 +1,19 @@
+/* Test */
+
+/*Bottom footer  */
+#super_bottom {
+  background-color: #56279f;
+  font-family: 'Poppins';
+  font-size: 0.8em;
+}
+
+span.js-cookie.extraBottom-cookie {
+  background: var(--cvpv2_utilitary_color);
+  padding: 6px;
+  margin: 0 20px;
+  transition: all 0.3s;
+}
+
+span.js-cookie.extraBottom-cookie:hover {
+  opacity: 0.8;
+}
