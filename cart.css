@@ -1,0 +1,11 @@
+/* Fix bug croix de retrait élément du panier */
+#main_content.sfv2 .cart_item .cart_sub_item .item_option .option_remove.remove_cart_item {
+  margin-right: 10px;
+}
+
+#main_content.sfv2 .cart_item .remove_cart_item:hover:before {
+  color: #eb6535;
+  transform: translate(-50%, -50%) scale(1.1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
